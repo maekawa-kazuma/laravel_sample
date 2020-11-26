@@ -21,5 +21,4 @@ Route::get('/submit', function () {
 });
 
 use Illuminate\Http\Request;
-
 Route::post('/submit', 'LinkController@submit'); 

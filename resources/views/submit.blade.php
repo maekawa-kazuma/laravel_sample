@@ -1,6 +1,10 @@
 @extends('default')
 
 @section('content')
+
+@foreach ($errors->all() as $error)
+  <li>{{$error}}</li>
+@endforeach
   <div class="container">
     <div class="row">
       <h1>Submit a link</h1>
